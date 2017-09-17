@@ -8,7 +8,7 @@ arch=('x86_64')
 url="https://github.com/Alexey-T/CudaText"
 license=('MPL')
 depends=('xdg-utils')
-source_x86_64=("cudatext-1.19.0.0.tar.gz")
+source_x86_64=("https://github.com/liberodark/CudaText/releases/download/1.19.0.0/cudatext-1.19.0.0.tar.gz")
 source=($pkgname.desktop
         $pkgname.png)
         
