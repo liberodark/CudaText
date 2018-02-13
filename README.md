@@ -1,2 +1,2 @@
 # CudaText
-CudaText for Manjaro / Arch Linux
+CudaText for Manjaro / Arch Linux / Solus
