@@ -9,7 +9,7 @@ source=("https://netix.dl.sourceforge.net/project/cudatext/release/Linux/cudatex
 	$name.desktop
         $name.png)
         
-package() {
+build() {
   cd $srcdir
   tar xvf data.tar.xz
   cp -r usr $pkgdir
