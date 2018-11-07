@@ -1,7 +1,7 @@
 # Depends on: python
 
 name=cudatext
-version=1.64.0.5
+version=1.65.0.0
 description="Cross-platform text editor"
 url="https://github.com/Alexey-T/CudaText"
 packager="liberodark<liberodark@gmail.com>"
