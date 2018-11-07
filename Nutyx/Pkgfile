@@ -7,13 +7,13 @@ url="https://github.com/Alexey-T/CudaText"
 name=cudatext
 version=1.65.0.0
 
-run=( python)
+run=(python)
 
 source=(https://netix.dl.sourceforge.net/project/cudatext/release/Linux/cudatext_${version}-1_gtk2_amd64.deb)
 
 build() {
 
+ar x cudatext_${version}-1_gtk2_amd64.deb
 tar xvf data.tar.xz
 cp -r usr $PKG
-
 }
